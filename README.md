@@ -1,6 +1,6 @@
 # G-Sneaker
 
-This is the instruction for web developer intern assignment at [Golden Owl](https://goldenowl.asia). You will build a simple shopping cart.
+This is the instruction for PHP web developer intern assignment at [Golden Owl](https://goldenowl.asia). You will build a simple shopping cart.
 
 ![Screenshot](./screenshots/screenshot.jpg)
 
@@ -24,16 +24,20 @@ Your application should have at least features in [Must have](#must-have), thing
   - When there are no products in cart, we should show `Your cart is empty` message.
   - Products in cart should be persistent: When user visit the application, products are added before should be showed, user don't need to add products again.
 - UI must follow correctly design from [live demo](https://gshoes.vercel.app).
+- All data must be stored in the database. The front-end and the back-end communicate via APIs.
 
 ### Nice to have:
 
 - Responsive design (look good on all devices: desktops, tablets & mobile phones).
 - Smooth animations (don't really need to be same as the demo, just do what you think is good).
 - Deploy the application to heroku.
+- Unit test.
 
 # Technical Requirements
 
-You can use any front-end library/framework like React, Angular, Vue, ... or just simple things with HTML + CSS + Javascript (JQuery).
+- Front-end: You can use any front-end library/framework such as React, Angular, Vue, etc. or just simple things with HTML + CSS + Javascript (JQuery).
+- Back-end: You can use any PHP library/framework such as Laravel, Yii, CodeIgniter, etc. or just with pure PHP.
+- Database: MySQL, PostgreSQL, Mongo, etc. or any databases
 
 - Products data:
   - [`./app/data/shoes.json`](./app/data/shoes.json)
@@ -52,7 +56,7 @@ You can use any front-end library/framework like React, Angular, Vue, ... or jus
 
 After completing the assignment, please push the source code to remote repository (github/gitlab), then send us the link to your repository.
 
-Don't forget to add `README.md` which includes guide to run your project locally and heroku demo link.
+Don't forget to add `README.md` which includes guide to run your project locally and vercel/fly.io/heroku demo link.
 
 
 **GOOD LUCK!!!**
