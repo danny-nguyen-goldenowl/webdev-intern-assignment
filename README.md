@@ -30,7 +30,7 @@ Your application should have at least features in [Must have](#must-have), thing
 
 - Responsive design (look good on all devices: desktops, tablets & mobile phones).
 - Smooth animations (don't really need to be same as the demo, just do what you think is good).
-- Deploy the application to heroku.
+- Deploy the application to heroku, fly.io, render.com (or any free platform).
 - Unit test.
 
 # Technical Requirements
